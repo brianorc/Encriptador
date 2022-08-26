@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    background-color: lightsteelblue;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+display: flex;
+height: 600px;
+padding: 0px;
+}
+header{
+    padding: 2%;
+    display: flex;
+    justify-content:space-between ;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    color: #0A3871;
+    text-decoration: underline;
+    font-size: 35px;
+}
+.encriptador {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.areademensaje textarea{
+    color: #0A3871;
+    font-weight: 400px;
+    font-size: 32px;
+    margin: 56px;
+    margin-left: 129px;
+    margin-top: 30px;
+}
+::placeholder { color:rgba(10, 56, 113, 1);
+    ; }
+
+.condicionMinusculas{
+    margin-left: 50px;
+}
+.botonera{
+    width: 100%;
+    display: flex;
+    width: 561px;
+}
+
+.respuesta {
+    align-items: right;
+    width: 100%;
+    margin: 64px;
+    margin-top: 30px;
+}
+
+.mensajeDeAbajoDeRespuesta{
+    width: 62% ;
+    text-align: center;
+    margin-left: 50px;
+} 
+
+
+.encriptar {
+    background: #0A3871;
+    border: none;
+    border-radius: 24px;
+    color:white;
+    width: 328px;
+    height: 67px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top:10px; 
+    margin-left: 50px;
+}
+
+.encriptar:hover, .desencriptar:hover, .botoncopiar:hover{
+    background-color:blueviolet;
+    transition: 0.5s;
+    transform: scale(1.1);
+    color: greenyellow;
+}
+.desencriptar{
+    background:whitesmoke;
+    border: 1px solid  #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    width: 328px;
+    height: 67px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top:10px; 
+    margin-left: 19px;
+    
+}
+.botoncopiar{
+    background:whitesmoke;
+    border: 1px solid  #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    width: 328px;
+    height: 67px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.mensaje{
+    background-image: url(/img/Muñeco.png);
+    background-repeat: no-repeat;
+    color: #0A3871 ;
+    font-weight: 400px;
+    font-size: 32px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    color: #0A3871;
+    margin:10px;
+    background-color:aqua;
+}
+

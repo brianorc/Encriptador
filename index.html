@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="/img/IconoA.png" alt="iconoAlura" srcset="">
+        <h1>Encripta y Desencripta un Mensaje</h1>
+        <img src="https://cdn2.gnarususercontent.com.br/6/449886/f2b41d57-19f7-494f-96d0-50f56b0ffed7.png" alt="logoOne" srcset=""> 
+        
+    </header>
+    <main>
+        <section class="encriptador">
+            <div class="areademensaje">
+                <textarea class ="inputText" id="" cols="30" rows="10" placeholder="Ingrese el texto aqui" style="border: none;" ></textarea>
+                <p>
+                <img src="/img/!.png" alt="advertencia" class="condicionMinusculas" > Solo letras minusculas y sin acentos
+                </p>
+            </div>
+            <div class="botonera">
+                <button class="encriptar" onclick="btnEncriptar()" >Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section> 
+        <section class="respuesta">
+            <textarea class="mensaje" id="" cols="25" rows="8" style="border: none;">
+            </textarea>
+            
+            <div class="mensajeDeAbajoDeRespuesta">         <h3>Ningun mensaje fue encontrado
+            </h3>
+            <p>
+                Ingresa el texto que desees encriptar o desencriptar.
+            </p>
+            </div>
+            
+            <button class="botoncopiar" onclick = "btnCopiar()">Copiar</button>
+        </section>
+    </main>        
+    <footer>
+        Creado por Brian Zangrando
+    </footer>
+
+        <script src="script.js"></script>
+</body>
+</html>
