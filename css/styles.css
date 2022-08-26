@@ -110,7 +110,7 @@ h1{
 }
 
 .mensaje{
-    background-image: url(./img/Muñeco.png);
+    background-image: url(img/Muñeco.png);
     background-repeat: no-repeat;
     color: #0A3871 ;
     font-weight: 400px;
